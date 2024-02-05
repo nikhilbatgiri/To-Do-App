@@ -1,0 +1,61 @@
+.todo-input{
+    display: inline-flexbox;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+input[type='text']{
+    padding: 0.5rem;
+    width: 32%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+button:hover{
+    background-color: mediumblue;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.todo-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.todo-list li{
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+.todo-list button{
+    width: auto;
+    background-color: red;
+    color: white;
+}
+
+.todo-list button:hover{
+    background-color: red;
+    opacity: 75%;
+    color: white;
+}
